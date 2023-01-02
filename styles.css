@@ -1,0 +1,8 @@
+body {
+    background-color: wheat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
