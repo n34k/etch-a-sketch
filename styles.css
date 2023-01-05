@@ -1,5 +1,5 @@
 body {
-    background-color: wheat;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,14 +21,8 @@ body {
 
 .grid-item {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.grid-item:hover {
-    background-color: black;
-    opacity: .5;
-}
 
 #top-border, #bottom-border {
    display: flex;
@@ -45,7 +39,7 @@ body {
 }
 
 #title {
-    color: gold;
+    color: white;
     font-family: cursive;
     font-weight: bold;
     font-size: 35px;
@@ -55,13 +49,25 @@ body {
     justify-content: space-between;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
+    
 }
 
 #left-button, #right-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
     background-color: white;
+    color: red;
     height: 100px;
     width: 100px;
     border-radius: 50px;
+    box-shadow: 0 0 11px black;
+}
+
+#left-button:hover {
+    opacity: .8;
 }
 
 #slider-container {
@@ -91,4 +97,16 @@ body {
     background-color: white;
     width: 10px;
     height: 10px;
+}
+
+#footer {
+    font-family: cursive;
+    display: flex;
+    gap: 5px;
+    margin-top: 125px;
+}
+
+#logo {
+    width: 25px;
+    height: 25px;
 }
